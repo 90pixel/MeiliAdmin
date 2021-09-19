@@ -9,7 +9,7 @@ MeiliSearch
   <img width="200" height="200" src="https://raw.githubusercontent.com/meilisearch/MeiliSearch/main/assets/logo.svg">
 </p>
 
-[Türkçe](./)
+[Türkçe](./README.md)
 
 
 [İngilizce](./README_EN.md)
