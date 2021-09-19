@@ -1,0 +1,14 @@
+{
+    "size": "Boyut",
+    "indices": "İndex",
+    "documents": "Döküman",
+    "uptime": "Uptime",
+    "online": "Aktif",
+    "offline": "Devre dışı",
+    "no_index_list_or_offline": "Henüz index oluşturulmamış veya sunucuya ulaşılamıyor.",
+    "error": "Hata!",
+    "all": "All",
+    "no_attribute": "Değer ataması yapılmamış.",
+    "empty": "Yok",
+    "add_server": "Yeni Sunucu Ekle"
+}

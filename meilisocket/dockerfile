@@ -1,0 +1,6 @@
+FROM node:lts-alpine as build-stage
+WORKDIR /app
+COPY . /app
+RUN npm install
+
+CMD ["node", "meili-socket.js"]
