@@ -12,7 +12,7 @@ MeiliSearch
 [Türkçe](./README.md)
 
 
-[İngilizce](./README_EN.md)
+[English](./README_EN.md)
 
 MeiliSearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box. For more information about features go to [MeiliSearch documentation](https://docs.meilisearch.com/ "MeiliSearch documentation")
 
