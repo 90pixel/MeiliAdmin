@@ -9,7 +9,7 @@ MeiliSearch
 [Türkçe](./README.md)
 
 
-[İngilizce](./README_EN.md)
+[English](./README_EN.md)
 
 MeiliSearch güçlü, hızlı, açık kaynak ve kullanımı kolay bir arama motorudur. İndexleme ve arama olarak büyük oranda özelleştirilebilir. Yazım hatası töleransı, filtreleme ve eş anlamlı kelimeler özellikleri out-of-the-box (ayarlama gerektirmeden) olarak çalışır. Daha fazla bilgi için lütfen [MeiliSearch dökümanını inceleyiniz](https://docs.meilisearch.com/ "MeiliSearch dökümanını inceleyiniz")
 
