@@ -60,16 +60,6 @@
           </div>
         </div>
       </div>
-      <div class="column">
-        <div class="card has-background-danger">
-          <div class="card-content has-text-white">
-            <h1 class="is-size-3 is-bold">{{ $t("uptime") }}</h1>
-            <div class="content is-size-4">
-              {{ serverData.data.uptime ? serverData.data.uptime : 0 }}
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
