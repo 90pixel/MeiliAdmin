@@ -6,10 +6,10 @@ MeiliSearch
   <img width="200" height="200" src="https://raw.githubusercontent.com/meilisearch/MeiliSearch/main/assets/logo.svg">
 </p>
 
-[Türkçe](./README.md)
+[Türkçe](./README_TR.md)
 
 
-[English](./README_EN.md)
+[English](./README.md)
 
 MeiliSearch güçlü, hızlı, açık kaynak ve kullanımı kolay bir arama motorudur. İndexleme ve arama olarak büyük oranda özelleştirilebilir. Yazım hatası töleransı, filtreleme ve eş anlamlı kelimeler özellikleri out-of-the-box (ayarlama gerektirmeden) olarak çalışır. Daha fazla bilgi için lütfen [MeiliSearch dökümanını inceleyiniz](https://docs.meilisearch.com/ "MeiliSearch dökümanını inceleyiniz")
 
