@@ -9,10 +9,10 @@ MeiliSearch
   <img width="200" height="200" src="https://raw.githubusercontent.com/meilisearch/MeiliSearch/main/assets/logo.svg">
 </p>
 
-[Türkçe](./README.md)
+[Türkçe](./README_TR.md)
 
 
-[English](./README_EN.md)
+[English](./README.md)
 
 MeiliSearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box. For more information about features go to [MeiliSearch documentation](https://docs.meilisearch.com/ "MeiliSearch documentation")
 
