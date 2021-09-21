@@ -1,6 +1,10 @@
-<h1 align="center">
-MeiliSearch
-</h1> 
+### MeiliAdmin
+
+MeiliAdmin is a UI interface for managing your MeiliSearch servers easily. MeiliAdmin doesn't have any auth service. You have to manage it in your private network (such as VPN). MeiliAdmin crafted by 90Pixel with ❤️.
+
+<h2 align="center">
+What is MeiliSearch?
+</h2> 
 
 
 <p align="center">
@@ -16,9 +20,7 @@ MeiliSearch
 
 MeiliSearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box. For more information about features go to [MeiliSearch documentation](https://docs.meilisearch.com/ "MeiliSearch documentation")
 
-### MeiliAdmin
 
-MeiliAdmin is a UI interface for managing your MeiliSearch servers easily. MeiliAdmin doesn't have any auth service. You have to manage it in your private network (such as VPN). MeiliAdmin crafted by 90Pixel with ❤️.
 
 ### Features
 
@@ -31,9 +33,31 @@ MeiliAdmin is a UI interface for managing your MeiliSearch servers easily. Meili
 
 # Installation
 
+## Docker
+
 ```
 git clone https://github.com/90pixel/MeiliAdmin
 docker-compose up -d
+```
+
+## Without Docker
+
+```
+ git clone https://github.com/90pixel/MeiliAdmin
+ 
+ //Auto Deploy with PM2 (Uses vue-cli serve method)
+ cd ./MeiliAdmin && pm2 start meiliadmin-pm2.json
+  
+ //Without PM2
+ 
+ cd ./MeiliAdmin
+ cd ./meiliadmin
+ npm run build
+ // Copy dist files into your http server. (Nginx, Apache etc.)
+ 
+ cd ../meilisocket
+ npm run start
+ 
 ```
 
 
