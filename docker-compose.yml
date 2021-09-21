@@ -6,8 +6,10 @@ services:
      - "9090:80"
     depends_on:
      - meilisocket
+    network_mode: host
   meilisocket:
     build: ./meilisocket
     ports:
      - "9191:9191"
+    network_mode: host
   
