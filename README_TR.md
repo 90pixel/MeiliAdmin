@@ -29,9 +29,26 @@ MeiliAdmin, MeiliSearch sunucularınızı yönetebilmeniz için oluşturulmuş b
 
 # Kurulum
 
+## Docker
 ```
 git clone https://github.com/90pixel/MeiliAdmin
 docker-compose up -d
 ```
 
-
+## Docker olmadan;
+```
+ git clone https://github.com/90pixel/MeiliAdmin
+ 
+ //PM2 ile otomatik olarak çalıştırma (vue-cli serve metodunu kullanır)
+ cd ./MeiliAdmin && pm2 start meiliadmin-pm2.json
+  
+ //Without PM2
+ 
+ cd ./MeiliAdmin
+ cd ./meiliadmin
+ npm run build
+ // dist klasöründe bulunan dosyaları web sunucunuza yükleyiniz. (Nginx, Apache vb.)
+ 
+ cd ../meilisocket
+ npm run start
+```
