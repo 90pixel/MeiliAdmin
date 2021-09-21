@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "meili-socket.js",
+  "scripts": {
+    "start": "node meili-socket.js",
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "cors": "^2.8.5",
