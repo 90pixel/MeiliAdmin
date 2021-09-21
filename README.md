@@ -40,6 +40,10 @@ git clone https://github.com/90pixel/MeiliAdmin
 docker-compose up -d
 ```
 
+Then visit this addres with your browser
+
+```http://localhost```
+
 ## Without Docker
 
 ```
