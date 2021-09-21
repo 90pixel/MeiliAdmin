@@ -4,7 +4,7 @@
   "description": "",
   "main": "meili-socket.js",
   "scripts": {
-    "start": "node meili-socket.js",
+    "start": "node meili-socket.js"
   },
   "dependencies": {
     "chalk": "^4.1.2",
@@ -15,9 +15,6 @@
     "socket.io": "^4.2.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "author": "90Pixel",
+  "license": "MIT"
 }
