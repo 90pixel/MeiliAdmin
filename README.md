@@ -1,37 +1,67 @@
-<h1 align="center">
-MeiliSearch
-</h1> 
+### MeiliAdmin
+
+MeiliAdmin is a UI interface for managing your MeiliSearch servers easily. MeiliAdmin doesn't have any auth service. You have to manage it in your private network (such as VPN). MeiliAdmin crafted by 90Pixel with ❤️.
+
+<h2 align="center">
+What is MeiliSearch?
+</h2> 
+
 
 <p align="center">
+
+
   <img width="200" height="200" src="https://raw.githubusercontent.com/meilisearch/MeiliSearch/main/assets/logo.svg">
 </p>
 
-[Türkçe](./)
+[Türkçe](./README_TR.md)
 
 
-[İngilizce](./README_EN.md)
+[English](./README.md)
 
-MeiliSearch güçlü, hızlı, açık kaynak ve kullanımı kolay bir arama motorudur. İndexleme ve arama olarak büyük oranda özelleştirilebilir. Yazım hatası töleransı, filtreleme ve eş anlamlı kelimeler özellikleri out-of-the-box (ayarlama gerektirmeden) olarak çalışır. Daha fazla bilgi için lütfen [MeiliSearch dökümanını inceleyiniz](https://docs.meilisearch.com/ "MeiliSearch dökümanını inceleyiniz")
+MeiliSearch is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box. For more information about features go to [MeiliSearch documentation](https://docs.meilisearch.com/ "MeiliSearch documentation")
 
 
-### MeiliAdmin
 
-MeiliAdmin, MeiliSearch sunucularınızı yönetebilmeniz için oluşturulmuş bir kullanıcı arabirimidir. MeiliAdmin yetkilendirme hizmeti barındırmaz. Güvenliğinizi özel internet ağınızda (VPN gibi) kendiniz yapılandırmalısınız. MeiliAdmin 90Pixel tarafından ❤️ ile geliştirildi.
+### Features
 
-### Özellikler
+- Language Support (Currently Turkish and English. If you want to add your language please contribute our open source project.)
+- Manage your all MeiliSearch servers.
+- Monitoring
+- Create Index
+- Update Index Settings
+- Will be added more in the future.
 
-- Dil Desteği
-- MeiliSearch sunucularınızın tamamını listeleyin ve yönetin.
-- Sunucularınızla ilgili istatistiklere erişin.
-- İndex/Dizin oluşturma
-- İndex/Dizin ayarlarını düzenleme
-- Daha fazlası gelecek zamanda eklenecek.
+# Installation
 
-# Kurulum
+## Docker
 
 ```
 git clone https://github.com/90pixel/MeiliAdmin
 docker-compose up -d
+```
+
+Then visit this addres with your browser
+
+```http://localhost```
+
+## Without Docker
+
+```
+ git clone https://github.com/90pixel/MeiliAdmin
+ 
+ //Auto Deploy with PM2 (Uses vue-cli serve method)
+ cd ./MeiliAdmin && pm2 start meiliadmin-pm2.json
+  
+ //Without PM2
+ 
+ cd ./MeiliAdmin
+ cd ./meiliadmin
+ npm run build
+ // Copy dist files into your http server. (Nginx, Apache etc.)
+ 
+ cd ../meilisocket
+ npm run start
+ 
 ```
 
 

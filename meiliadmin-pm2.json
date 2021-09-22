@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "MeiliAdmin",
+            "cwd": "./meiliadmin",
+            "script": "npm",
+            "args": "run serve"
+        },
+        {
+            "name": "MeiliSocket",
+            "cwd": "./meilisocket",
+            "script": "npm",
+            "args": "run start"
+        }
+    ]
+}
