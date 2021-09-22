@@ -100,7 +100,7 @@ export default {
         };
 
         fetch(
-          "http://172.31.207.154:7700/indexes/" + indexName + "/documents",
+          `${this.serverInfo.protocol}://${this.serverInfo.ip}:${this.serverInfo.port}/indexes/${indexName}/documents`,
           requestOptions
         )
           .then((response) => response.text())
@@ -118,11 +118,13 @@ export default {
   mounted() {
     this.startInterval();
     this.sockets.subscribe("server_indexes", (data) => {
-      this.serverIndexList = data;
+      this.serverIndexList = data.indices;
+      this.serverInfo = data.server;
     });
   },
   data: () => {
     return {
+      serverInfo: { ip: "127.0.0.1", port: 7700, protocol: "http" },
       errorMsg: "",
       createIndex: {
         name: "",

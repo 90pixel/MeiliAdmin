@@ -43,7 +43,7 @@ module.exports = {
         const ServerInstance = this.getServerInstance(server, protocol, port);
         try {
             const stats = await ServerInstance.stats();
-            return stats.indexes;
+            return { indices: stats.indexes, server: { protocol, port, ip: server } };
         } catch (error) {
             return [];
         }
