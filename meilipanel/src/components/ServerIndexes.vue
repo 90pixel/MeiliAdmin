@@ -98,9 +98,9 @@ export default {
           },
           body: rawJSON,
         };
-
+        const indexAddUrl = `${this.serverInfo.protocol}://${this.serverInfo.ip}:${this.serverInfo.port}/indexes/${indexName}/documents`;
         fetch(
-          `${this.serverInfo.protocol}://${this.serverInfo.ip}:${this.serverInfo.port}/indexes/${indexName}/documents`,
+          indexAddUrl,
           requestOptions
         )
           .then((response) => response.text())
