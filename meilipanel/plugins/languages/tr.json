@@ -37,5 +37,9 @@
     "fields": "Alanlar",
     "save": "Kaydet",
     "reset": "Sıfırla",
-    "synonym_name": "Hedef Kelime"
+    "synonym_name": "Hedef Kelime",
+    "index_name":"İndex Adı",
+    "select_file": "Tıkla ve Dosya Seç",
+    "upload": "Yükle"
+    
 }
