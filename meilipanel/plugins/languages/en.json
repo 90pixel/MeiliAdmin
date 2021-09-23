@@ -37,5 +37,8 @@
     "fields": "Fields",
     "save": "Save",
     "reset": "Reset",
-    "synonym_name": "Synonyms"
+    "synonym_name": "Synonyms",
+    "index_name":"Index Name",
+    "select_file": "Select file..",
+    "upload": "Upload"
 }
