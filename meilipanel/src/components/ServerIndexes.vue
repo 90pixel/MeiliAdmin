@@ -32,7 +32,7 @@
     >
       <div class="modal-card" style="width: 450px">
         <header class="modal-card-head">
-          <p class="modal-card-title">İndex Oluştur</p>
+          <p class="modal-card-title">{{$t("create_new_index")}}</p>
           <button
             type="button"
             class="delete"
@@ -44,7 +44,7 @@
             {{ errorMsg }}
           </b-message>
 
-          <b-field label="İndex Adı">
+          <b-field :label="$t('index_name')">
             <b-input
               v-model="createIndex.name"
               placeholder="ex: movies"
@@ -53,13 +53,13 @@
           <b-field class="file">
             <b-upload v-model="createIndex.file" expanded>
               <a class="button is-primary is-fullwidth">
-                <span>{{ createIndex.file.name || "Tıkla ve Dosya Seç" }}</span>
+                <span>{{ createIndex.file.name || $t('select_file') }}</span>
               </a>
             </b-upload>
           </b-field>
 
           <b-button expanded type="is-info my-4" @click="uploadIndex()"
-            >Yükle</b-button
+            >{{$t('upload')}}</b-button
           >
         </section>
       </div>
