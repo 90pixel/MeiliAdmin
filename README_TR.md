@@ -45,7 +45,7 @@ docker-compose up -d
  //Without PM2
  
  cd ./MeiliAdmin
- cd ./meiliadmin
+ cd ./meilipanel
  npm run build
  // dist klasöründe bulunan dosyaları web sunucunuza yükleyiniz. (Nginx, Apache vb.)
  
