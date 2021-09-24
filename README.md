@@ -55,7 +55,7 @@ Then visit this addres with your browser
  //Without PM2
  
  cd ./MeiliAdmin
- cd ./meiliadmin
+ cd ./meilipanel
  npm run build
  // Copy dist files into your http server. (Nginx, Apache etc.)
  
