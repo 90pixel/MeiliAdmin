@@ -35,8 +35,9 @@ MeiliSearch is a powerful, fast, open-source, easy to use and deploy search engi
 
 ## Docker
 
-```
+```bash
 git clone https://github.com/90pixel/MeiliAdmin
+cd MeiliAdmin
 docker-compose up -d
 ```
 
